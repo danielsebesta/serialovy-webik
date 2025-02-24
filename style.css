@@ -9,3 +9,18 @@ body {
 h1 {
 	letter-spacing: -0.5px;
 }
+
+.btn-pink {
+--bs-btn-color: var(--bs-danger-foreground);
+	--bs-btn-bg: hotpink;
+	--bs-btn-hover-bg: rgb(221, 94, 157);
+	--bs-btn-focus-shadow-hsl: var(--bs-danger-hsl);
+	--bs-btn-active-bg: var(--bs-danger-active-bg);
+	--bs-btn-active-shadow: none;
+	--bs-btn-disabled-color: var(--bs-btn-color);
+	--bs-btn-disabled-bg: var(--bs-btn-bg);
+}
+
+.btn-pink:hover {
+	color: white;
+}

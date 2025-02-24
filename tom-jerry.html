@@ -17,14 +17,15 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" href="https://i.pinimg.com/564x/f5/da/de/f5dade9cd6f63a27ff18409231745c92.jpg"
 		type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
 <body>
-	<nav class="navbar d-flex justify-content-center fixed-top"
+	<nav class="animate__animated animate__fadeIn navbar d-flex justify-content-center fixed-top"
 		style="background-image: url('https://piemontizposumavi.eu/files/img/noise.png'); backdrop-filter: blur(15px); padding-left: 20%; padding-right: 20%;">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand" href="index.html">
 				Seriálový webík
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-1"
@@ -40,44 +41,79 @@
 						<a class="nav-link" aria-current="page" href="index.html#dnesni-vyber">Seriály</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="pridat-serial.html">Přidat seriál</a>
+						<a class="nav-link" aria-current="page" href="pridat-serial.html">Přidat seriál</a>
 					</li>
 			</div>
 		</div>
 	</nav>
 	<header class="container">
 		<div class="px-4 pt-5 my-5 text-center">
-			<h1 class="display-4 fw-bold text-body-emphasis">Tom & Jerry</h1>
+			<h1 class="animate__animated animate__fadeInDown display-4 fw-bold text-body-emphasis">Tom & Jerry</h1>
 			<div class="col-lg-6 mx-auto">
-				<p class="lead mb-4">Animovaný / Komedie / Rodinný<br>
+				<p class="animate__animated animate__fadeInDown lead mb-4">Animovaný / Komedie / Rodinný<br>
 					USA, (1940–1967), 19 h 5 min (Minutáž: 6–9 min)</p>
 				<img src="https://image.pmgstatic.com/cache/resized/w420/files/images/film/posters/158/236/158236127_03ad5b.jpg"
-					class="border rounded-3 shadow-lg mb-4" height="300px" alt="Dnešní výběr seriálu">
+					class="animate__animated animate__fadeIn border rounded-3 shadow-lg mb-4" height="300px"
+					alt="Dnešní výběr seriálu">
 				<br>
-				<a href=""><button type="button" style="background: hotpink;" class="btn btn-ruzovka">IMDb</button></a>
-				<a href=""><button type="button" style="background: hotpink;" class="btn btn-danger">ČSFD</button></a>
+				<a target="_blank" href="https://www.imdb.com/title/tt6066786/"><button type="button"
+						class="btn btn-pink animate__animated animate__fadeInLeft">IMDb</button></a>
+				<a target="_blank" href="https://www.csfd.cz/film/69266-tom-a-jerry/prehled/"><button type="button"
+						class="btn btn-pink animate__animated animate__fadeInRight">ČSFD</button></a>
 			</div>
 		</div>
+	</header>
+	<main class="container col-lg-8 mx-auto p-4 py-md-5 animate__animated animate__fadeIn">
+		<h2>O seriálu</h2>
+		<p>
+			„Tom a Jerry“ je legendární animovaný seriál, který byl vytvořen Williamem Hannou a Josephem Barberou. Poprvé byl
+			vysílán v roce 1940 a od té doby se stal jedním z nejznámějších a nejúspěšnějších animovaných pořadů na světě.
+			Seriál
+			sleduje neustálý konflikt mezi dvěma hlavními postavami: kočkou Tomem a myší Jerrym.
+			<br>
+			Tom je většinou vykreslen jako kočka, která se neustále snaží chytit Jerryho, a to v různých komických a často
+			absurdních situacích. Jerry je malá, bystrá a velmi vynalézavá myš, která vždy najde způsob, jak uniknout a
+			obratně
+			oklamat Toma. Tento neustálý hon a vzájemné vtipy jsou jádrem většiny epizod.
+			<br>
+			Seriál je známý především tím, že téměř neobsahuje mluvené slovo – humor je založen na vizuálním gagu a zvukových
+			efektech, což umožnilo „Tomovi a Jerrymu“ oslovit diváky všech jazyků a kultur. I přes jednoduchý základní příběh,
+			který
+			se většinou točí kolem snahy Toma ulovit Jerryho, byl seriál oceněn za svou kreativitu, animaci a vynikající
+			komické
+			timingy.
+			<br>
+			„Tom a Jerry“ byl několikrát oceněn cenou Akademie (Oscarem) za nejlepší animovaný krátkometrážní film. Seriál se
+			stal
+			skutečnou kulturní ikonou, která si našla místo nejen v dětských srdcích, ale i u dospělých, kteří si užívají jeho
+			klasický humor a brilantní animaci.
+			<br>
+			V průběhu let prošel seriál několika změnami a modernizacemi, ale základní principy – kočka vs. myš – zůstaly
+			zachovány.
+			Tom a Jerry tak i dnes patří k nejtrvalejším symbolům animovaného humoru a zábavy.
+		</p>
 		<h2>Postavy</h2>
-		<div class="container d-inline-flex flex-row">
-			<div class="card" style="width: 18.75rem;">
+		<div class="container d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-sm-start">
+			<div class="card" style="width: 18rem;">
 				<img src="https://upload.wikimedia.org/wikipedia/en/f/f6/Tom_Tom_and_Jerry.png" class="card-img-top"
-					style="aspect-ratio: 1 / 1; object-fit: cover;" alt="...">
+					style="aspect-ratio: 1 / 1; object-fit: cover;" alt="Tom">
 				<div class="card-body">
 					<h5 class="card-title">Tom</h5>
 				</div>
-				<div class="card" style="width: 18.75rem;">
-					<img src="https://upload.wikimedia.org/wikipedia/en/2/2f/Jerry_Mouse.png" class="card-img-top"
-						style="aspect-ratio: 1 / 1; object-fit: cover;" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">Jerry</h5>
-					</div>
+			</div>
+
+			<div class="card" style="width: 18rem;">
+				<img src="https://upload.wikimedia.org/wikipedia/en/2/2f/Jerry_Mouse.png" class="card-img-top"
+					style="aspect-ratio: 1 / 1; object-fit: cover;" alt="Jerry">
+				<div class="card-body">
+					<h5 class="card-title">Jerry</h5>
 				</div>
 			</div>
 		</div>
 
-		<hr>
-		<div class="col-12">
+
+		<h2 class="mt-4">Recenze</h2>
+		<div class="col-12 mt-1 mb-5">
 			<div class="d-flex align-items-center mb-4">
 				<!-- Profilová fotka -->
 				<div class="rounded-circle bg-secondary" style="width: 40px; height: 40px;"></div>
@@ -105,10 +141,8 @@
 			</p>
 		</div>
 		</div>
-	</header>
-	<main class="container">
-
 	</main>
+
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha256-CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=" crossorigin="anonymous"></script>
